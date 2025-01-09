@@ -37,7 +37,7 @@ export default function RootLayout({
         >
           <QueryProvider>
             <SheetProvider />
-            <Toaster richColors />
+            <Toaster richColors theme='light' />
             {children}
           </QueryProvider>
         </body>
